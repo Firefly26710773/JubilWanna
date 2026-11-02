@@ -1,0 +1,31 @@
+# Build outputs
+/build/
+/build-cmake/
+/out/
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.exe
+
+# Local packaging
+/JubiIWanna_可运行版/
+/*.zip
+
+# Test screenshots and local save data
+/shots/
+*.bmp
+/jubi_save.txt
+/record.dat
+/size.log
+/click.log
+*.log
+
+# IDE / OS
+/.vs/
+*.user
+*.suo
+
+# Temp document renders
+/.dsh-office-*/
